@@ -1,8 +1,8 @@
-import Login from "@/pages/login/login";
+import PageLogin from '@/modules/login/pages/pageLogin'
 
 export const routerPublics = [
   {
-    path: "/login",
-    Componente: Login,
+    path: '/',
+    Componente: PageLogin,
   },
-];
+]
