@@ -10,4 +10,5 @@ export const labelRouter = {
   usuarios: 'Usuarios',
   productos: 'Productos',
   categorias: 'Categorias',
+  provedores: 'Proveedores',
 }

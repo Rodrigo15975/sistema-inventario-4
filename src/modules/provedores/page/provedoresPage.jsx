@@ -1,8 +1,14 @@
+import Panel from "@/components/common/container/panel"
+import Header from "@/components/common/header/Header"
+import PanelProveedores from "../components/panel-proveedores/panel-proveedores"
 
 const ProvedoresPage = () => {
   return (
     <>
-      <h1>Provedores</h1>
+      <Header />
+      <Panel>
+        <PanelProveedores />
+      </Panel>
     </>
   )
 }

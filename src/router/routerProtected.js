@@ -23,7 +23,7 @@ export const routerProtected = [
     Componente: UsuariosPage,
   },
   {
-    path: pathRouter.usuarios,
+    path: pathRouter.provedores,
     Componente: ProvedoresPage,
   },
 ]
