@@ -36,7 +36,7 @@ const Login = () => {
           <div className="flex lg:px-4 w-full flex-wrap items-center justify-center text-neutral-800 :text-neutral-200">
             <div className=" rounded-lg flex justify-center gap-8 w-full">
               <div className="g-0 lg:flex flex-[0_1_30rem] max-xl:flex-[0_1_50rem]  max-md:px-4 lg:flex-wrap">
-                <div className="px-4 md:px-0 flex flex-col ring-1 hover:ring-slate-800 ring-slate-800/50 rounded-md shadow justify-center items-center flex-[0_1_30rem]">
+                <div className="px-4 md:px-0 flex flex-col ring-1 ring-slate-500/40 rounded-md shadow justify-center items-center flex-[0_1_30rem]">
                   <div className="md:mx-6 md:p-12 max-lg:min-h-[80vh] max-lg:flex max-lg:justify-center max-lg:flex-col w-full">
                     <div className="text-center">
                       <img
@@ -44,7 +44,7 @@ const Login = () => {
                         src={logo}
                         alt="logo"
                       />
-                      <h4 className="mb-4 mt-1 pb-1 text-slate-800 text-4xl font-semibold">
+                      <h4 className="mb-4 mt-1 pb-1 text-slate-500 text-4xl font-semibold">
                         Bienvenido
                       </h4>
                       <p className="mb-4 text-center font-light text-slate-500">
@@ -67,6 +67,7 @@ const Login = () => {
                                   <FormLabel>{input.placeHolder}</FormLabel>
                                   <FormControl>
                                     <Input
+                                      className=""
                                       type={input.type}
                                       placeholder={input.placeHolder}
                                       {...field}
@@ -83,7 +84,7 @@ const Login = () => {
                           <div>
                             <Button
                               type="submit"
-                              className="w-full hover:bg-primary/10 hover:text-primary flex gap-2 items-center h-[2.5rem] bg-neutral-800"
+                              className="w-full hover:bg-primary/10 hover:text-primary flex gap-2 items-center h-[2.5rem] bg-gradient-to-r from-slate-500 to-slate-500"
                             >
                               Ingresar
                               <SiSimplelogin className="text-xl" />
