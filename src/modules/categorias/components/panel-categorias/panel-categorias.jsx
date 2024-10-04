@@ -5,7 +5,7 @@ const PanelCategorias = () => {
   return (
     <>
       <div>
-        <h2 className="text-3xl text-primary font-medium  ">Categorias</h2>
+      <h2 className="text-3xl text-primary font-medium max-md:text-center">Categorias</h2>
       </div>
       <div className="min-h-[75vh] rounded-md bg-white shadow ">
         <TableCategorias/>

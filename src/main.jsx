@@ -8,7 +8,6 @@ import { BrowserRouter } from 'react-router-dom'
 import {
   queryClient,
   QueryClientProvider,
-  ReactQueryDevtools,
 } from './config/reactQueryProvider.js'
 
 createRoot(document.getElementById('root')).render(
@@ -17,7 +16,6 @@ createRoot(document.getElementById('root')).render(
       <BrowserRouter>
         <QueryClientProvider client={queryClient}>
           <App />
-          <ReactQueryDevtools buttonPosition="bottom-right" />
         </QueryClientProvider>
       </BrowserRouter>
     </PrimeReactProvider>
