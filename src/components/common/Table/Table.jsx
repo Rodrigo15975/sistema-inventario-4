@@ -1,5 +1,5 @@
-import { Column } from 'primereact/column'
-import { DataTable } from 'primereact/datatable'
+import { Column } from "primereact/column"
+import { DataTable } from "primereact/datatable"
 
 const Table = ({
   columnsConfig,
@@ -23,17 +23,20 @@ const Table = ({
         resizableColumns
         header={header}
         // Puede hacer quie aparezca el scroll cuando el max width es menor
-        className={` ${className} w-full min-h-[75vh]`}
+        className={` ${className} w-full min-h-[75vh] `}
       >
         {columnsConfig.map((column, index) => (
           <Column
             key={`table-${index}-${column}`}
             sortable={column.sortable}
-            className="h-[4rem] border text-text_primary/80 border-bg_six/10 p-2 hover:bg-bg_secondary/10 transition font-robotoSlab_400 "
+            className="h-[4rem] border text-text_primary/80  border-bg_six/10 p-2 hover:bg-bg_secondary/10 transition font-robotoSlab_400 "
             resizeable
-            headerClassName={`${headerClassName}`}
+            headerStyle={{
+              color: "white",
+            }}
+            headerClassName={`${headerClassName} bg-blue-600 !text-white`}
             field={column.field}
-            align={'center'}
+            align={"center"}
             body={column.body}
             header={column.header}
           />

@@ -45,7 +45,7 @@ const NewProduct = () => {
           <Form {...form}>
             <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
               <DialogFooter>
-                <Button className="bg-primary/80 gap-2" type="submit">
+                <Button className="bg-gradient-to-tl from-blue-600 to-sky-400 gap-2" type="submit">
                   Crear producto
                   <MdOutlineProductionQuantityLimits />
 

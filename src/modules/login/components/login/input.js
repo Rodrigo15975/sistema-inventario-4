@@ -1,12 +1,12 @@
 export const inputs = [
   {
-    placeHolder: 'Email',
-    name: 'email',
-    type: 'email',
+    placeHolder: "Ingrese su email",
+    name: "email",
+    type: "email",
   },
   {
-    placeHolder: 'Contraseña',
-    name: 'password',
-    type: 'password',
+    placeHolder: "Ingrese su contraseña",
+    name: "password",
+    type: "password",
   },
 ]

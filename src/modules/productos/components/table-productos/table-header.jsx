@@ -21,7 +21,7 @@ const TableHeader = () => {
             Nuevo producto
           </Tooltip>
           <Dialog >
-            <DialogTrigger className="new-user font-light rounded-md items-center transition-all max-sm:flex-auto flex-[0_1_10rem] h-10 flex justify-center w-full shadow ring-1 bg-neutral-700 text-white ring-neutral-50">
+            <DialogTrigger className="new-user font-light bg-gradient-to-r from-blue-700 to-blue-500 rounded-md items-center transition-all max-sm:flex-auto flex-[0_1_10rem] h-10 flex justify-center w-full shadow ring-1 bg-neutral-700 text-white ring-neutral-50">
               <MdProductionQuantityLimits className="text-2xl" />
             </DialogTrigger>
             <NewProduct />
